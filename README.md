@@ -1,16 +1,81 @@
-# React + Vite
+# Meme Generator 🎭
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple meme generator built with React, Vite, React Router, and Tailwind CSS.
 
-Currently, two official plugins are available:
+Users can browse meme templates, select a template, add custom captions, position them anywhere on the image, and create memes in seconds.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Browse from multiple meme templates
+* Select a template and open the editor
+* Add custom text captions
+* Live caption preview while typing
+* Move captions anywhere on the image
+* Lock and unlock caption position with a click
+* Add multiple captions to a single meme
+* Clear all captions and reset the editor
+* Responsive and modern UI
+* Navigation using React Router
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+* React
+* Vite
+* React Router DOM
+* Tailwind CSS
+
+---
+
+## Project Structure
+
+```text
+src/
+│
+├── Components/
+│   ├── Home.jsx
+│   ├── Template.jsx
+│   ├── Caption.jsx
+│   ├── Heading.jsx
+│   └── Footer.jsx
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## Usage
+
+1. Click **Select from given Templates**.
+2. Choose a meme template.
+3. Enter text in the input field.
+4. Move the caption to the desired location.
+5. Click **Add Text** to save the caption.
+6. Repeat to add more captions.
+7. Use **Clear** to reset the editor.
+
+---
+
+## Learning Outcomes
+
+This project helped me practice:
+
+* React state management with `useState`
+* Component communication through props
+* React Router navigation
+* Event handling
+* Dynamic rendering with `map()`
+* Tailwind CSS styling
+* Building interactive user interfaces
+
+---
+
+## Author
+
+**Varun**
+
+GitHub: https://github.com/varunn29
