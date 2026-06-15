@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+@theme {
+  --font-indie: "Indie Flower", cursive;
+}
